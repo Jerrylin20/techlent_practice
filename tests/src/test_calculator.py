@@ -6,3 +6,6 @@ cal = Calculator()
 def test_add():
     assert cal.add(1,3) == 4
     assert cal.add(500,20) == 520
+
+def test_subtract():
+    assert cal.subtract(3,1) == 2
