@@ -13,8 +13,10 @@ class Calculator():
 
 if __name__ == "__main__":
     calculator = Calculator()
-    print(calculator.add(1,3))	
+    print(calculator.add(1,3))
+    print(calculator.subtract(100,99))	
     print(calculator.subtract(5,2))
+    print(calculator.multiply(0,1))
     print(calculator.multiply(2,4))
     print(calculator.divide(10,0))
     print(calculator.divide(10,2))
