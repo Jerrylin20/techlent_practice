@@ -6,6 +6,7 @@ cal = Calculator()
 def test_add():
     assert cal.add(1,3) == 4
     assert cal.add(500,20) == 520
+    assert cal.add(2,10) == 12
 
 def test_subtract():
     assert cal.subtract(4,1) == 3
@@ -20,5 +21,5 @@ def test_multify():
 def test_divide():
     assert cal.divide(4,2) == 2
     assert cal.divide(100,50) == 2
-
+    assert cal.divide(10,0) == 0
 
