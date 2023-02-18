@@ -18,5 +18,7 @@ def test_multify():
     assert cal.mulfify(2,2) == 4
     assert cal.multify(100,0) == 0
 
-
+def test_divide_():
+    assert cal.divide(100,20) == 5
+    assert cal.divide(6,3) == 2
 
