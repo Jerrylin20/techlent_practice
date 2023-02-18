@@ -1,11 +1,11 @@
 from app.src.calculator import Calculator
 
-
 cal = Calculator()
 
 def test_add():
     assert cal.add(1,3) == 4
     assert cal.add(500,20) == 520
+    assert cal.add(3,5) == 8
 
 def test_subtract():
     assert cal.subtract(4,1) == 3
@@ -21,4 +21,5 @@ def test_multify():
 def test_divide_():
     assert cal.divide(100,20) == 5
     assert cal.divide(6,3) == 2
+    assert cal.divide(2,0) == 0
 
